@@ -1,0 +1,18 @@
+print("A Day in NYC: a Mad Lib.") 
+print("Welcome! You are about to play a fantastic word game.")  
+print("I will ask you for nouns, verbs, adjectives, proper nouns and adverbs.")  
+print("Using those words I will create an unexpected story for you!")
+
+proper_noun = input("Enter a proper noun: ")
+place = input("Enter a place in New York City: ")
+another_place = input("Enter another place in New York City: ")
+adverb = input("Enter an adverb: ")
+noun = input("Enter a noun: ")
+adjective = input("Enter an adjective: ")
+verb = input("Enter a verb: ")
+another_adjective = input("Enter another adjective: ")
+
+print("It was a " + str(another_adjective) + " day in New York City")
+print("Our hero, " + str(proper_noun) + ", was on a walk from " + str(place) + " to " + str(another_place))
+print(str(proper_noun) + " " + str(adverb) + " began " + str(verb) + " because NYC was very fast paced.")
+print("Suddenly " + str(proper_noun) + " got hit by a " + str(noun) + " that appeared out of nowhere!!!")
